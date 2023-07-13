@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AboutWindowController">
+   <children>
+      <MenuBar maxWidth="-Infinity" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Serveur">
+            <items>
+              <MenuItem fx:id="menuServerConnect" mnemonicParsing="false" onAction="#onMainMenuValidation" text="Connexion" />
+                  <MenuItem fx:id="menuServerFavorites" mnemonicParsing="false" onAction="#onMainMenuValidation" text="Favoris" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Aide">
+               <items>
+                  <MenuItem fx:id="menuHelpAbout" mnemonicParsing="false" onAction="#onMainMenuValidation" text="À propos" />
+                  <MenuItem fx:id="menuHelpManual" mnemonicParsing="false" onAction="#onMainMenuValidation" text="Manuel" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <TitledPane animated="false" collapsible="false" layoutX="-1.0" layoutY="26.0" prefHeight="744.0" prefWidth="1024.0" text="À propos du programme" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
+        <content>
+          <AnchorPane fx:id="aboutPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <HBox fx:id="aboutBox" layoutX="21.4" layoutY="20.4" prefHeight="687.0" prefWidth="1001.0" style="-fx-background-color: darkgray;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                     <children>
+                        <Label fx:id="aboutLabel" alignment="TOP_CENTER" contentDisplay="CENTER" lineSpacing="8.0" prefHeight="569.0" prefWidth="858.0" text="Ce programme a été développé en Java par DevBlocks{42} à l'aide du kit de développement logiciel (SDK) JavaFX, et le logiciel SceneBuilder pour la construction de l'interface graphique utilisateur.\n\nJavaFX : https://openjfx.io/\nSceneBuilder : https://gluonhq.com/products/scene-builder/\nGithub : https://github.com/DevBlocks42/JavaChatClient" wrapText="true">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin></Label>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+   </children>
+</AnchorPane>

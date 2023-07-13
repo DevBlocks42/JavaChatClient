@@ -1,0 +1,58 @@
+@options
+@packages
+@argfile
+--class-path
+'/home/sysadmin/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-web/13/javafx-web-13.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-media/13/javafx-media-13.jar'
+--module-path
+'/home/sysadmin/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-linux.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-linux.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-linux.jar:/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/JavaChatClient-1.0-SNAPSHOT.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-media/13/javafx-media-13-linux.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-web/13/javafx-web-13-linux.jar:/home/sysadmin/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-linux.jar'
+--patch-module
+client.javachatclient='/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/src/main/java:/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/generated-sources/annotations'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+--module-source-path
+'/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'JavaChatClient 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'JavaChatClient 1.0-SNAPSHOT API'
+controllers
+client
+'/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/src/main/java/module-info.java'
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/deprecated-list.html = 1689255263959
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/script.js = 1689255263963
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/package-search-index.js = 1689255263951
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/allpackages-index.html = 1689255263955
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/index.html = 1689255263959
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/allclasses-index.html = 1689255263955
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/member-search-index.zip = 1689255263951
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/member-search-index.js = 1689255263951
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/allclasses.html = 1689255263959
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/element-list = 1689255263899
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/module-search-index.zip = 1689255263951
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/type-search-index.js = 1689255263951
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/package-search-index.zip = 1689255263951
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/search.js = 1689255263963
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/stylesheet.css = 1689255263963
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/jquery-ui.overrides.css = 1689255263983
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/type-search-index.zip = 1689255263951
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/constant-values.html = 1689255263919
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/module-search-index.js = 1689255263947
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/help-doc.html = 1689255263963
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/overview-tree.html = 1689255263939
+/home/sysadmin/Documents/Dev/Java/NetBeansProjects/Projects/JavaChatClient/target/apidocs/index-all.html = 1689255263951

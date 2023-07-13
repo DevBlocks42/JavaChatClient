@@ -1,0 +1,17 @@
+client/Server.class
+controllers/ManualWindowController.class
+controllers/ClientWindowController.class
+controllers/ClientWindowController$2$1.class
+controllers/AboutWindowController.class
+controllers/MainWindowController.class
+controllers/FavoritesWindowController$1$1$1.class
+network/Client.class
+controllers/ClientWindowController$1.class
+controllers/FavoritesWindowController$1.class
+controllers/FavoritesWindowController$1$1.class
+controllers/ClientWindowController$3.class
+client/App.class
+controllers/FavoritesWindowController.class
+module-info.class
+controllers/ClientWindowController$2.class
+network/Client$1.class

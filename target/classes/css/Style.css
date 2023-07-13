@@ -1,0 +1,31 @@
+body
+{
+    margin: 0; 
+    padding: 0;
+}
+.messageBox
+{
+    background-color: #778ba5;
+    width: 100vw;
+}
+.messageBox > .message
+{
+    margin-left: 2.5%;
+}
+.messageBox > p  
+{
+    display: inline;
+    overflow-wrap: break-word;
+}
+.messageBox > button 
+{
+    float: right;
+    display: flex;
+    padding: 0 0 0 0;
+    margin-right: 8px;
+    margin-top: 0;
+}
+.messageBox > blockquote
+{
+    font-style: italic;
+}

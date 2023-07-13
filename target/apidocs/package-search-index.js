@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"client.javachatclient","l":"client"},{"m":"client.javachatclient","l":"controllers"}]
